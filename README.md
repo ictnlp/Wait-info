@@ -4,8 +4,6 @@ Source code for our EMNLP 2022 paper "Wait-info Policy: Balancing Source and Tar
 
 <img src="./Wait-info.png" alt="Wait-info" style="zoom: 25%;" />
 
-<center><p>Wait-info policy</p></center>
-
 Our method is implemented based on the open-source toolkit [Fairseq](https://github.com/pytorch/fairseq).
 
 ## Requirements and Installation
@@ -85,7 +83,7 @@ python train.py --ddp-backend=no_c10d ${data} --arch transformer --share-all-emb
 
 Evaluate the model with the following command:
 
-- Note that simultaneous machine translation require `beam size=1`with `--sim-decoding`.
+- Note that simultaneous machine translation require `--batch-size=1`with `--sim-decoding`.
 
 ```bash
 export CUDA_VISIBLE_DEVICES=0
