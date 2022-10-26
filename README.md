@@ -1,6 +1,6 @@
 # Wait-info Policy: Balancing Source and Target at Information Level for Simultaneous Machine Translation
 
-Source code for our EMNLP 2022 paper "Wait-info Policy: Balancing Source and Target at Information Level for Simultaneous Machine Translation" (PDF)
+Source code for our EMNLP 2022 paper "[Wait-info Policy: Balancing Source and Target at Information Level for Simultaneous Machine Translation](https://arxiv.org/pdf/2210.11220.pdf)"
 
 <img src="./Wait-info.png" alt="Wait-info" style="zoom: 25%;" />
 
@@ -180,5 +180,6 @@ for Simultaneous Machine Translation",
     year = "2022",
     address = "Online and Abu Dhabi",
     publisher = "Association for Computational Linguistics",
+    url = "https://arxiv.org/pdf/2210.11220.pdf",
 }
 ```
